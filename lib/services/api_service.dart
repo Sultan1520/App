@@ -6,7 +6,7 @@ import '../models/category.dart';
 import '../models/cart.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://techstore-psov.onrender.com//api';
+  static const String baseUrl = 'https://techstore-psov.onrender.com/api';
 
   static Future<List<Product>> fetchProducts() async {
     final response = await http.get(Uri.parse('$baseUrl/products/'));
