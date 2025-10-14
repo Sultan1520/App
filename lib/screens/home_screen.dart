@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: TextField(
               decoration: InputDecoration(
                 hintText: 'Поиск товаров...',
-                prefixIcon: const Icon(Icons.search),
+                prefixIcon: const Icon(Icons.search),s
                 filled: true,
                 fillColor: Colors.white,
                 contentPadding: const EdgeInsets.symmetric(vertical: 0, horizontal: 16),
