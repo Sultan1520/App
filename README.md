@@ -1,16 +1,59 @@
-# flutter_application_1
+Flutter Shop App
 
-A new Flutter project.
+Проект представляет собой мобильное приложение интернет-магазина, созданное на Flutter.
+Приложение подключается к backend, написанному на Django, и получает данные о товарах через REST API.
+Пользователь может просматривать каталог, открывать страницу каждого товара и добавлять товары в корзину.
 
-## Getting Started
+О проекте
 
-This project is a starting point for a Flutter application.
+Основная цель проекта — продемонстрировать работу с API и базовые функции интернет-магазина.
+Приложение создано для учебных целей и может быть использовано как шаблон для дальнейшей разработки.
 
-A few resources to get you started if this is your first Flutter project:
+Используемые технологии
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter и язык программирования Dart для интерфейса
+Django REST Framework для серверной части
+SQLite как основная база данных
+Render для размещения backend
+Vercel для размещения frontend
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Запуск проекта
+
+Установите Flutter, если он еще не установлен. Инструкцию можно найти на официальном сайте Flutter.
+
+Склонируйте репозиторий проекта:
+
+git clone https://github.com/имя_пользователя/flutter_shop_app.git
+
+
+Перейдите в директорию проекта:
+
+cd flutter_shop_app
+
+
+Установите все зависимости:
+
+flutter pub get
+
+
+Проверьте подключение к API. В файле lib/constants.dart укажите адрес сервера, например:
+
+static const String baseUrl = 'https://techstore-psov.onrender.com/api';
+
+
+Запустите приложение:
+
+flutter run
+
+Структура проекта
+
+lib/ — основной код приложения
+models/ — описание моделей данных
+screens/ — экраны приложения
+widgets/ — переиспользуемые элементы интерфейса
+services/ — логика работы с API
+
+Возможные проблемы
+
+Если приложение не может получить данные, проверьте правильность baseUrl и включён ли сервер на Render.
+Также убедитесь, что ваш backend разрешает CORS-запросы с вашего домена.
