@@ -1,62 +1,49 @@
-import 'specifications.dart';
-import 'category.dart';
-
 class Product {
-  final int id;
+  final int? id;
   final String name;
-  final String description;
-  final String company;
+  final String gtin;
+  final String status;
   final double price;
-  final double? originalPrice;
-  final String image;
-  final String color;
-  final String storage;
-  final double count;
-  final List<Specification> specifications;
-  final int category;
+  final String? image;
+  final String? createdAt;
+  final String? updatedAt;
+  final String? deletedAt;
 
   Product({
-    required this.id,
+    this.id,
     required this.name,
-    required this.description,
-    required this.company,
+    required this.gtin,
+    required this.status,
     required this.price,
-    this.originalPrice,
-    required this.image,
-    required this.color,
-    required this.storage,
-    required this.count,
-    this.specifications = const [],
-    required this.category,
+    this.image,
+    this.createdAt,
+    this.updatedAt,
+    this.deletedAt,
   });
 
-  factory Product.fromJson(Map<String, dynamic> json) {
-  double parseToDouble(dynamic value) {
-    if (value == null) return 0.0;
-    if (value is num) return value.toDouble();
-    if (value is String) return double.tryParse(value) ?? 0.0;
-    return 0.0;
+  Map<String, dynamic> toMap() {
+    return {
+      'id': id,
+      'name': name,
+      'gtin': gtin,
+      'status': status,
+      'price': price,
+      'image': image,
+      'created_at': createdAt,
+      'updated_at': updatedAt,
+      'deleted_at': deletedAt,
+    };
   }
 
-  return Product(
-    id: json['id'],
-    name: json['name'] ?? '',
-    description: json['description'] ?? '',
-    company: json['company'] ?? '',
-    price: parseToDouble(json['price']),
-    originalPrice: json['original_price'] != null
-        ? parseToDouble(json['original_price'])
-        : null,
-    image: json['image'] ?? '',
-    color: json['color'] ?? '',
-    storage: json['storage'] ?? '',
-    count: parseToDouble(json['count']),
-    specifications: (json['specifications'] as List?)
-            ?.map((e) => Specification.fromJson(e))
-            .toList() ??
-        [],
-    category: json['category'] ?? 0,
-  );
-}
-
+  factory Product.fromMap(Map<String, dynamic> map) => Product(
+        id: map['id'],
+        name: map['name'],
+        gtin: map['gtin'],
+        status: map['status'],
+        price: map['price'],
+        image: map['image'],
+        createdAt: map['created_at'],
+        updatedAt: map['updated_at'],
+        deletedAt: map['deleted_at'],
+      );
 }

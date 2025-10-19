@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
-import 'cart.dart';
-import 'account.dart';
+import 'product_screen.dart';
+import 'stock_screen.dart';
 
 class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+  final bool isDark;
+  final VoidCallback onToggleTheme;
+
+  const MainScreen({
+    super.key,
+    required this.isDark,
+    required this.onToggleTheme,
+  });
 
   @override
   State<MainScreen> createState() => _MainScreenState();
@@ -14,29 +20,37 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _screens = [
-    const HomeScreen(),
-    const CartPage(),
-    const AuthPage(),
+    ProductsScreen(),
+    StocksScreen(),
   ];
-
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Shop App'),
+        actions: [
+          IconButton(
+            icon: Icon(
+              widget.isDark ? Icons.light_mode : Icons.dark_mode,
+            ),
+            onPressed: widget.onToggleTheme,
+          ),
+        ],
+      ),
       body: _screens[_selectedIndex],
-      bottomNavigationBar: NavigationBar(
-        height: 65,
-        selectedIndex: _selectedIndex,
-        onDestinationSelected: _onItemTapped,
-        destinations: const [
-          NavigationDestination(icon: Icon(Icons.home_outlined), label: 'Главная'),
-          NavigationDestination(icon: Icon(Icons.shopping_cart_outlined), label: 'Корзина'),
-          NavigationDestination(icon: Icon(Icons.person_outline), label: 'Профиль'),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _selectedIndex,
+        onTap: (index) => setState(() => _selectedIndex = index),
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.shopping_bag),
+            label: 'Товары',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.store),
+            label: 'Остатки',
+          ),
         ],
       ),
     );
