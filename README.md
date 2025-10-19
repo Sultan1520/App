@@ -32,9 +32,11 @@ flutter run
 **Основная часть:**
 
 * Добавление нового товара ✔️
+  
   <img width="540" height="1212" alt="Screenshot_1760895707" src="https://github.com/user-attachments/assets/918e20f9-dfe8-45e4-b59d-c13d97ca3756" />
 
 * Валидация GTIN (ровно 13 цифр, только цифры) ✔️
+  
   <img width="360" height="116" alt="image" src="https://github.com/user-attachments/assets/0d10faf5-6ff4-49e5-803e-9e67e81759ed" />
 
 * Редактирование и удаление товаров ✔️
