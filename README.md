@@ -71,6 +71,7 @@ flutter run
 **Основная часть:**
 
 * Добавление остатков (склад, GTIN, количество)  ✔️
+  
   <img width="540" height="1212" alt="Screenshot_1760897296" src="https://github.com/user-attachments/assets/c729175a-d071-404a-b537-1568d2cbdd6f" />
 
 
