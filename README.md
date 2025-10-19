@@ -1,4 +1,4 @@
-Приложение для управления товарами и остатками на складе.
+![Screen_recording_20251019_231737](https://github.com/user-attachments/assets/84e8485a-2442-488b-8e6a-5efc361ce6a0)![Screen_recording_20251019_231737](https://github.com/user-attachments/assets/894c283f-a290-471d-96b0-b13203576c22)<img width="1080" height="2424" alt="Screenshot_1760897461" src="https://github.com/user-attachments/assets/675ee052-c329-43b1-8748-c8a0c7c3dfec" /><img width="1080" height="2424" alt="Screenshot_1760897296" src="https://github.com/user-attachments/assets/086288cf-8e14-4541-b8cc-e7b7484ca1b1" /><img width="1080" height="2424" alt="Screenshot_1760897296" src="https://github.com/user-attachments/assets/b7c49555-a272-4721-8e87-7753f2fdb4d8" />![Screen_recording_20251019_230511](https://github.com/user-attachments/assets/2ec9f7f6-32cc-4357-9207-d03c0b2b9548)![Screen_recording_20251019_230511](https://github.com/user-attachments/assets/4f19f59a-7512-4898-b29c-690567907a89)<img width="1080" height="2424" alt="Screenshot_1760896921" src="https://github.com/user-attachments/assets/d67dff7a-8908-43a8-be38-cf26a5eb6672" />Приложение для управления товарами и остатками на складе.
 Все данные сохраняются локально с помощью базы данных **SQFLite**, при повторном запуске состояние полностью восстанавливается.
 Поддерживается **светлая и тёмная темы интерфейса**.
 
@@ -38,6 +38,7 @@ flutter run
   <img width="360" height="116" alt="image" src="https://github.com/user-attachments/assets/0d10faf5-6ff4-49e5-803e-9e67e81759ed" />
 
 * Редактирование и удаление товаров ✔️
+  
   ![Screen_recording_20251019_225007](https://github.com/user-attachments/assets/651895f6-ba8d-46ca-9f10-505b75da4790)
 
 * Список товаров с отображением: *название, цена, дата создания* ✔️
@@ -66,15 +67,28 @@ flutter run
 **Основная часть:**
 
 * Добавление остатков (склад, GTIN, количество)  ✔️
+  <img width="1080" height="2424" alt="Screenshot_1760897296" src="https://github.com/user-attachments/assets/c729175a-d071-404a-b537-1568d2cbdd6f" />
+
+
 * Если товар уже есть на складе — увеличивать количество ✔️
 * При добавлении существующего товара количество увеличивается ✔️
+  ![Screen_recording_20251019_230511](https://github.com/user-attachments/assets/95ff67c7-02b7-4ab7-965a-761acc0f9481)
+
 * Возможность просмотра всех остатков ✔️
+  <img width="1080" height="2424" alt="Screenshot_1760896921" src="https://github.com/user-attachments/assets/d675240d-2097-40b6-a528-eae3f76925c2" />
+
 
 **Бонус:**
 
 * Удаление товара со склада (валидация количества) ✔️
+  <img width="1080" height="2424" alt="Screenshot_1760897364" src="https://github.com/user-attachments/assets/26283e2c-df68-474a-b8e7-7f96bcb3f81c" />
+
 * Фильтрация по складам ✔️
+  <img width="459" height="387" alt="image" src="https://github.com/user-attachments/assets/aa65d109-58a6-40cf-a35c-39a3484a3c9c" />
+
 * Подсчёт общего количества по всем складам ✔️
+  <img width="1080" height="2424" alt="Screenshot_1760897461" src="https://github.com/user-attachments/assets/faa62bf0-91f6-4e8a-a7ec-2e2c41780350" />
+
 
 ---
 
@@ -104,6 +118,13 @@ flutter run
 
 * Адаптивный дизайн ✔️
 * Переключение между светлой и тёмной темой ✔️
+  ![Screen_recording_20251019_231143](https://github.com/user-attachments/assets/accb0e8e-b5b2-4314-9301-fb48fe653e39)
+
+---
+### Полное видео
+*Ссылка на Google Drive: https://drive.google.com/file/d/16c3biZX1Pt3elq57dfatOwitmnHb3731/view?usp=sharing
+*Гифка
+![Screen_recording_20251019_231737](https://github.com/user-attachments/assets/2ecaafda-c558-4b00-9901-1234f56a587b)
 
 ---
 
