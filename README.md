@@ -132,12 +132,15 @@ flutter run
 
 * Адаптивный дизайн ✔️
 * Переключение между светлой и тёмной темой ✔️
+  Gif:
+  
   ![Screen_recording_20251019_231143](https://github.com/user-attachments/assets/accb0e8e-b5b2-4314-9301-fb48fe653e39)
 
 ---
 ### Полное видео
 *Ссылка на Google Drive: https://drive.google.com/file/d/16c3biZX1Pt3elq57dfatOwitmnHb3731/view?usp=sharing
 *Гифка
+
 ![Screen_recording_20251019_231737](https://github.com/user-attachments/assets/2ecaafda-c558-4b00-9901-1234f56a587b)
 
 ---
