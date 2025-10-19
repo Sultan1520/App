@@ -40,6 +40,7 @@ flutter run
   <img width="360" height="116" alt="image" src="https://github.com/user-attachments/assets/0d10faf5-6ff4-49e5-803e-9e67e81759ed" />
 
 * Редактирование и удаление товаров ✔️
+  Gif:
   
   ![Screen_recording_20251019_225007](https://github.com/user-attachments/assets/651895f6-ba8d-46ca-9f10-505b75da4790)
 
@@ -79,6 +80,7 @@ flutter run
 
 * Если товар уже есть на складе — увеличивать количество ✔️
 * При добавлении существующего товара количество увеличивается ✔️
+  Gif:
   
   ![Screen_recording_20251019_230511](https://github.com/user-attachments/assets/95ff67c7-02b7-4ab7-965a-761acc0f9481)
 
