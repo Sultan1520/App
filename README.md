@@ -81,12 +81,14 @@ flutter run
   ![Screen_recording_20251019_230511](https://github.com/user-attachments/assets/95ff67c7-02b7-4ab7-965a-761acc0f9481)
 
 * Возможность просмотра всех остатков ✔️
+  
   <img width="540" height="1212" alt="Screenshot_1760896921" src="https://github.com/user-attachments/assets/d675240d-2097-40b6-a528-eae3f76925c2" />
 
 
 **Бонус:**
 
 * Удаление товара со склада (валидация количества) ✔️
+  
   <img width="540" height="1212" alt="Screenshot_1760897364" src="https://github.com/user-attachments/assets/26283e2c-df68-474a-b8e7-7f96bcb3f81c" />
 
 * Фильтрация по складам ✔️
@@ -94,6 +96,7 @@ flutter run
   <img width="459" height="387" alt="image" src="https://github.com/user-attachments/assets/aa65d109-58a6-40cf-a35c-39a3484a3c9c" />
 
 * Подсчёт общего количества по всем складам ✔️
+  
   <img width="540" height="1212" alt="Screenshot_1760897461" src="https://github.com/user-attachments/assets/faa62bf0-91f6-4e8a-a7ec-2e2c41780350" />
 
 
