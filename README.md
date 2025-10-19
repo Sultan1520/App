@@ -32,7 +32,7 @@ flutter run
 **Основная часть:**
 
 * Добавление нового товара ✔️
-  <img width="1080" height="2424" alt="Screenshot_1760895707" src="https://github.com/user-attachments/assets/918e20f9-dfe8-45e4-b59d-c13d97ca3756" />
+  <img width="540" height="1212" alt="Screenshot_1760895707" src="https://github.com/user-attachments/assets/918e20f9-dfe8-45e4-b59d-c13d97ca3756" />
 
 * Валидация GTIN (ровно 13 цифр, только цифры) ✔️
   <img width="360" height="116" alt="image" src="https://github.com/user-attachments/assets/0d10faf5-6ff4-49e5-803e-9e67e81759ed" />
@@ -42,7 +42,7 @@ flutter run
   ![Screen_recording_20251019_225007](https://github.com/user-attachments/assets/651895f6-ba8d-46ca-9f10-505b75da4790)
 
 * Список товаров с отображением: *название, цена, дата создания* ✔️
-  <img width="1080" height="2424" alt="Screenshot_1760895701" src="https://github.com/user-attachments/assets/66adb168-4176-4f00-ad76-fcbdffcad871" />
+  <img width="540" height="1212" alt="Screenshot_1760895701" src="https://github.com/user-attachments/assets/66adb168-4176-4f00-ad76-fcbdffcad871" />
 
 * Сортировка по дате создания и названию ✔️
   
@@ -61,7 +61,7 @@ flutter run
 
 * Подтверждение удаления (модальное окно) ✔️
   
-  <img width="1080" height="2424" alt="Screenshot_1760896716" src="https://github.com/user-attachments/assets/dc1dfe5f-3a32-4e30-80c5-de150b6f5397" />
+  <img width="540" height="1212" alt="Screenshot_1760896716" src="https://github.com/user-attachments/assets/dc1dfe5f-3a32-4e30-80c5-de150b6f5397" />
 
 
 ---
@@ -71,27 +71,29 @@ flutter run
 **Основная часть:**
 
 * Добавление остатков (склад, GTIN, количество)  ✔️
-  <img width="1080" height="2424" alt="Screenshot_1760897296" src="https://github.com/user-attachments/assets/c729175a-d071-404a-b537-1568d2cbdd6f" />
+  <img width="540" height="1212" alt="Screenshot_1760897296" src="https://github.com/user-attachments/assets/c729175a-d071-404a-b537-1568d2cbdd6f" />
 
 
 * Если товар уже есть на складе — увеличивать количество ✔️
 * При добавлении существующего товара количество увеличивается ✔️
+  
   ![Screen_recording_20251019_230511](https://github.com/user-attachments/assets/95ff67c7-02b7-4ab7-965a-761acc0f9481)
 
 * Возможность просмотра всех остатков ✔️
-  <img width="1080" height="2424" alt="Screenshot_1760896921" src="https://github.com/user-attachments/assets/d675240d-2097-40b6-a528-eae3f76925c2" />
+  <img width="540" height="1212" alt="Screenshot_1760896921" src="https://github.com/user-attachments/assets/d675240d-2097-40b6-a528-eae3f76925c2" />
 
 
 **Бонус:**
 
 * Удаление товара со склада (валидация количества) ✔️
-  <img width="1080" height="2424" alt="Screenshot_1760897364" src="https://github.com/user-attachments/assets/26283e2c-df68-474a-b8e7-7f96bcb3f81c" />
+  <img width="540" height="1212" alt="Screenshot_1760897364" src="https://github.com/user-attachments/assets/26283e2c-df68-474a-b8e7-7f96bcb3f81c" />
 
 * Фильтрация по складам ✔️
+  
   <img width="459" height="387" alt="image" src="https://github.com/user-attachments/assets/aa65d109-58a6-40cf-a35c-39a3484a3c9c" />
 
 * Подсчёт общего количества по всем складам ✔️
-  <img width="1080" height="2424" alt="Screenshot_1760897461" src="https://github.com/user-attachments/assets/faa62bf0-91f6-4e8a-a7ec-2e2c41780350" />
+  <img width="540" height="1212" alt="Screenshot_1760897461" src="https://github.com/user-attachments/assets/faa62bf0-91f6-4e8a-a7ec-2e2c41780350" />
 
 
 ---
