@@ -45,6 +45,7 @@ flutter run
   <img width="1080" height="2424" alt="Screenshot_1760895701" src="https://github.com/user-attachments/assets/66adb168-4176-4f00-ad76-fcbdffcad871" />
 
 * Сортировка по дате создания и названию ✔️
+  
   <img width="464" height="601" alt="image" src="https://github.com/user-attachments/assets/ef5afa28-2321-41a1-adac-9cbc80d7b8a9" />
 
 
@@ -57,6 +58,7 @@ flutter run
   <img width="464" height="601" alt="image" src="https://github.com/user-attachments/assets/951f4c7e-2634-4865-8065-6528fb8fd448" />
 
 * Подтверждение удаления (модальное окно) ✔️
+  
   <img width="1080" height="2424" alt="Screenshot_1760896716" src="https://github.com/user-attachments/assets/dc1dfe5f-3a32-4e30-80c5-de150b6f5397" />
 
 
