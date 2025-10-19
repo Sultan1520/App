@@ -1,5 +1,3 @@
-![Screen_recording_20251019_225007](https://github.com/user-attachments/assets/efbb1bec-15ed-4c21-8c3e-6652b382880d)<img width="427" height="321" alt="image" src="https://github.com/user-attachments/assets/262cafbe-0c81-4b39-bb6f-46475fada8dd" /><img width="1080" height="2424" alt="Screenshot_1760896716" src="https://github.com/user-attachments/assets/1fe344f8-1198-4c89-b7c5-4ca47b7cb62e" /><img width="1080" height="2424" alt="Screenshot_1760895701" src="https://github.com/user-attachments/assets/7f079ab7-c045-4267-bb84-d35ad9473deb" /><img width="1080" height="2424" alt="Screenshot_1760895701" src="https://github.com/user-attachments/assets/8472c7f1-d904-498e-829e-99272401aeb3" /><img width="360" height="116" alt="image" src="https://github.com/user-attachments/assets/cf3f1299-8bb9-4e22-b1eb-6a648d5db379" /># Flutter Shop App
-
 Приложение для управления товарами и остатками на складе.
 Все данные сохраняются локально с помощью базы данных **SQFLite**, при повторном запуске состояние полностью восстанавливается.
 Поддерживается **светлая и тёмная темы интерфейса**.
