@@ -52,9 +52,11 @@ flutter run
 **Бонус:**
 
 * Добавление изображения для товара ✔️
+  
   <img width="427" height="321" alt="image" src="https://github.com/user-attachments/assets/b1b33156-058e-4c58-980d-b09e539937a3" />
 
 * Поиск по GTIN ✔️
+  
   <img width="464" height="601" alt="image" src="https://github.com/user-attachments/assets/951f4c7e-2634-4865-8065-6528fb8fd448" />
 
 * Подтверждение удаления (модальное окно) ✔️
